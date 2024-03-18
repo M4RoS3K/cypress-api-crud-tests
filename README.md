@@ -1,30 +1,51 @@
-# API CRUD Test Cases
-> This project demonstrates testing of GET, POST, PUT and DELETE endpoints of a [public API](https://calm-plum-jaguar-tutu.cyclic.app/todos)
+<h1 align="center">
+  API CRUD Test Cases
+  <br>
+</h1>
 
-Technologies used:
-- npm
-- cypress
+<h4 align="center">A simple project built on top of Cypress</h4>
 
-## Installation
+## Key Features
+* Endpoints GET, POST, PUT and DELETE of a [public API](https://calm-plum-jaguar-tutu.cyclic.app/todos) covered by various test scenarios
+* Multi-broser support
+* Live Test results in your favorite browser
 
-1. install npm [HERE](https://nodejs.org/en/download)
-2. install cypress ```npm install cypress --save-dev```
-2. run cypress by command  ```npx cypress open```
-3. choose E2E testing
-4. choose your favorite browser
-5. open spec ```api.cy.js```
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/M4RoS3K/cypress-api-crud-tests
+
+# Go into the repository
+$ cd cypress-api-crud-tests
+
+# Install dependencies
+$ npm install cypress --save-dev
+
+# Run the app
+$ npx cypress open
+```
+> **Note**
+> Test execution is open in a browser of your choice and spec file _api.cy.js_ needs to be chosen in for test exection to be started
 
 ## Usage example
 
 You can access this API and cypress tests for free, just in case you need a CRUD API.
 For this API URL rate limit 5 requests/minute for (POST, PUT, DELETE) and 2 requests/second for GET have been set.
-Only for this reason test cases contain wait commands to avoid overreaching the rate limit.
-Because the API is public, data can be modified containing not only book data.
+Only for this reason test cases contain wait commands to avoid reaching the rate limit
 
 ## Meta
 
 Maros Spusta – [@M4RoS3K](https://github.com/M4RoS3K) – maros.spusta@gmail.com
 
+## Credits
+
+This software uses the following open source packages:
+
+- [Node.js](https://nodejs.org/)
+- [Cypress.io](https://www.cypress.io/)
 
 ## Contributing
 
