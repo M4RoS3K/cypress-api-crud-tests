@@ -8,6 +8,7 @@ Technologies used:
 ## Installation
 
 1. install npm [HERE](https://nodejs.org/en/download)
+2. install cypress ```npm install cypress --save-dev```
 2. run cypress by command  ```npx cypress open```
 3. choose E2E testing
 4. choose your favorite browser

@@ -7,6 +7,5 @@ module.exports = defineConfig({
     },
     baseUrl: "https://calm-plum-jaguar-tutu.cyclic.app/todos",
     specPattern: "cypress/integration/*.cy.js"
-  },
-  
+  }  
 });
