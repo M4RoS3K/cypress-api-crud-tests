@@ -12,13 +12,14 @@ Technologies used:
 2. run cypress by command  ```npx cypress open```
 3. choose E2E testing
 4. choose your favorite browser
-5. open spec ``` api.cy.js```
+5. open spec ```api.cy.js```
 
 ## Usage example
 
 You can access this API and cypress tests for free, just in case you need a CRUD API.
 For this API URL rate limit 5 requests/minute for (POST, PUT, DELETE) and 2 requests/second for GET have been set.
-Only for this reason test cases contain wait commands to avoid reaching the rate limit
+Only for this reason test cases contain wait commands to avoid overreaching the rate limit.
+Because the API is public, data can be modified containing not only book data.
 
 ## Meta
 
